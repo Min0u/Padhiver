@@ -14,7 +14,7 @@ Le projet est structuré en packages :
 ## Comment Jouer
 
 1. Compilez les fichiers source Java.
-2. Exécutez le fichier principal `Main` pour lancer le jeu.
+2. Exécutez le fichier principal `Jeu` pour lancer le jeu.
 
 ### Prérequis
 
