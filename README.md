@@ -46,6 +46,7 @@ Avant de commencer, assurez-vous d'avoir installé ce qui suit sur votre machine
 ## Auteur
 
 Ce projet a été créé par :
-- Min0u
-- T
-- [Nom du Troisième Contributeur] ([Adresse Email du Troisièm Troisième Contributeur])
+
+- **Min0u**
+- **Obludaaa**
+- **Ramlat MAOULANA-CHARIF**
