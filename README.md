@@ -27,23 +27,23 @@ Avant de commencer, assurez-vous d'avoir installé ce qui suit sur votre machine
 #### Compilation
 
 1. Ouvrez un terminal ou une invite de commande.
-2. Accédez au répertoire racine de votre projet en utilisant la commande
-   `cd chemin/vers/le/repertoire/projet`.
-3. Compilez les fichiers source Java en utilisant la commande
-   `javac chemin/vers/les/fichiers/*.java`.
+2. Accédez au répertoire racine de votre projet en utilisant la commande :
+   ```sh
+   cd chemin/vers/le/repertoire/projet
+4. Compilez les fichiers source Java en utilisant la commande :
+   ```sh
+   javac chemin/vers/les/fichiers/*.java
 
-   Par exemple :
-   ```bash
-   javac src/*.java
+Par exemple :
+ `javac src/*.java`
 
 #### Exécution
 
 1. Restez dans le même répertoire où se trouvent vos fichiers compilés (*.class).
 2. Exécutez le fichier principal du programme en utilisant la commande java -cp chemin/vers/les/classes Main.
 
-   Par exemple :
-   ```bash
-   java -cp bin Jeu
+Par exemple :
+ `java -cp bin Jeu`
 
 ## Auteur
 
