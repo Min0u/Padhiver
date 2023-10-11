@@ -6,7 +6,7 @@ Ce projet de jeu de rôle a été développé en Java et consiste en un combat e
 
 Le projet est structuré en packages :
 
-- **base** : Contient les classes de base pour les personnages, les lieux et les PNJ.
+- **base** : Contient les classes de base pour les personnages, les joueurs, les lieux et les PNJ.
 - **metier** : Contient les classes de métier pour les joueurs (Guerrier, Magicien, etc.).
 - **monstre** : Contient les classes de monstres, y compris des monstres spécifiques comme les dragons et les nécromants.
 - **sort** : Contient les classes de sorts, tels que Boule de Feu, Rayon de Givre, Transfert de Vie, etc.
