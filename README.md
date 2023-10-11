@@ -27,8 +27,10 @@ Avant de commencer, assurez-vous d'avoir installé ce qui suit sur votre machine
 #### Compilation
 
 1. Ouvrez un terminal ou une invite de commande.
-2. Accédez au répertoire racine de votre projet en utilisant la commande `cd chemin/vers/le/repertoire/projet`.
-3. Compilez les fichiers source Java en utilisant la commande `javac chemin/vers/les/fichiers/*.java`.
+2. Accédez au répertoire racine de votre projet en utilisant la commande
+   `cd chemin/vers/le/repertoire/projet`.
+3. Compilez les fichiers source Java en utilisant la commande
+   `javac chemin/vers/les/fichiers/*.java`.
 
    Par exemple :
    ```bash
