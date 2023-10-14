@@ -7,14 +7,12 @@ public class Monstre extends Personnage {
 
     // Attributs
 
-    private int magie;
     private static final String S1 = " dégâts au joueur.";
 
     // Constructeur
 
     public Monstre(String nom, int pointsDeVieTotal, int degats, int magie) {
         super(nom, pointsDeVieTotal, degats, magie);
-        this.magie = magie;
     }
 
     // Méthodes
