@@ -104,10 +104,10 @@ public class Jeu {
             /////////////////////////////////////////////////////////////
 
             // Création des base.PNJ
-            PNJ pnj1 = new PNJ("PNJ 1", "Bonjour ! Je suis le base.PNJ 1. \nPermettez moi de vous raconter l'histoire de Padhiver. \nPadhiver est un monde fantastique, peuplé de créatures étranges et de monstres en tout genre. \nVous êtes un aventurier, et vous avez pour mission de sauver le monde. \nPour cela, vous devrez accomplir des quêtes, combattre des monstres, et gagner des niveaux. \nVous êtes actuellement niveau 1. \nBonne chance !");
-            PNJ pnj2 = new PNJ("PNJ 2", "Bonjour ! Je suis le base.PNJ 2. \nVous êtes actuellement à Padhiver, la ville principale. \nLorsque vous aurez éliminé tous les monstres d'un lieu, vous aurez la possibilité de vous reposer. \nEn vous reposant, vous regagnerez la totalité de vos points de vie ainsi que vos points de magie (si vous en possédez). \nD'ici, vous avez accès à la Route Nord et à la Route Sud. \nBonne chance !");
-            PNJ pnj3 = new PNJ("PNJ 3", "Bonjour ! Je suis le base.PNJ 3. \nVous êtes actuellement sur la Route Nord. \nVous pouvez vous rendre à Padhiver ou à la Forêt. \nEn allant dans la Forêt, vous aurez accès au Volcan. \nBonne chance !");
-            PNJ pnj4 = new PNJ("PNJ 4", "Bonjour ! Je suis le base.PNJ 4. \nVous êtes actuellement sur la Route Sud. \nVous pouvez vous rendre à Padhiver ou à la Marais des Morts. \nEn allant dans la Marais des Morts, vous aurez accès au Crypte. \nBonne chance !");
+            PNJ pnj1 = new PNJ("PNJ 1", "Bonjour " + joueur.getNom() + " ! Je suis le PNJ 1. \nPermettez moi de vous raconter l'histoire de Padhiver. \nPadhiver est un monde fantastique, peuplé de créatures étranges et de monstres en tout genre. \nVous êtes un aventurier, et vous avez pour mission de sauver le monde. \nPour cela, vous devrez accomplir des quêtes, combattre des monstres, et gagner des niveaux. \nVous êtes actuellement niveau 1. \nBonne chance !");
+            PNJ pnj2 = new PNJ("PNJ 2", "Bonjour " + joueur.getNom() + " ! Je suis le PNJ 2. \nVous êtes actuellement à Padhiver, la ville principale. \nLorsque vous aurez éliminé tous les monstres d'un lieu, vous aurez la possibilité de vous reposer. \nEn vous reposant, vous regagnerez la totalité de vos points de vie ainsi que vos points de magie (si vous en possédez). \nD'ici, vous avez accès à la Route Nord et à la Route Sud. \nBonne chance !");
+            PNJ pnj3 = new PNJ("PNJ 3", "Bonjour " + joueur.getNom() + " ! Je suis le PNJ 3. \nVous êtes actuellement sur la Route Nord. \nVous pouvez vous rendre à Padhiver ou à la Forêt. \nEn allant dans la Forêt, vous aurez accès au Volcan. \nBonne chance !");
+            PNJ pnj4 = new PNJ("PNJ 4", "Bonjour " + joueur.getNom() + " ! Je suis le PNJ 4. \nVous êtes actuellement sur la Route Sud. \nVous pouvez vous rendre à Padhiver ou à la Marais des Morts. \nEn allant dans la Marais des Morts, vous aurez accès au Crypte. \nBonne chance !");
 
             /////////////////////////////////////////////////////////////
 
@@ -215,7 +215,7 @@ public class Jeu {
                     // Déplacement
                     case 1:
                         List<Lieu> lieuxAccessibles = List.of(Lieu.getLieuxAccessibles(joueur.getLieuActuel()));
-                        System.out.println("\nbase.Lieu(s) accessible(s) :");
+                        System.out.println("\nLieu(s) accessible(s) :");
                         for (int i = 0; i < lieuxAccessibles.size(); i++) {
                             Lieu lieu = lieuxAccessibles.get(i);
                             System.out.println((i + 1) + ". " + lieu.getNom()); // Affichez le numéro du lieu et son nom
