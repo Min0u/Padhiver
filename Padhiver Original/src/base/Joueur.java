@@ -79,6 +79,9 @@ public class Joueur extends Personnage {
             if (metier instanceof Magicien) {
                 System.out.println("Magie du joueur : " + getPointsDeMagieCourants() + "/" + getMagieTotal());
             }
+            if (cible instanceof Necromant || cible instanceof Dragon) {
+                System.out.println("Magie du monstre : " + cible.getPointsDeMagieCourants() + "/" + cible.getMagie());
+            }
 
             // Vérifiez à qui appartient le tour et laissez ce personnage attaquer
             if (tourJoueur) {
