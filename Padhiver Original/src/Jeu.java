@@ -168,7 +168,7 @@ public class Jeu {
             // Initialisation du lieu actuel du joueur
             joueur.setLieuActuel(padhiver);
             System.out.println("\nVous êtes à " + joueur.getLieuActuel().getNom() + ".");
-            System.out.println("N'hésitez pas à parler aux base.PNJ pour avoir des informations sur le jeu.");
+            System.out.println("N'hésitez pas à parler aux PNJ pour avoir des informations sur le jeu.");
             Lieu lieuAv = joueur.getLieuActuel();
 
             // Le jeu continue jusqu'à ce que le joueur atteigne le niveau 10 ou ses PV atteignent 0
