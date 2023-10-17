@@ -16,7 +16,6 @@ import monstre.Orc;
 
 import java.util.List;
 import java.util.Scanner;
-//VIENS JOUEUR chut
 
 public class Jeu {
     public static void main(String[] args) {
