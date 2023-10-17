@@ -4,7 +4,7 @@ Ce projet de jeu de rôle a été développé en Java et consiste en un combat e
 
 ## Structure du Projet
 
-Le projet est structuré en packages :
+Le projet est structuré en packages (sauf pour le fichier Jeu.java qui contient "main", qui est situé dans le répertoire principal)  :
 
 - **base** : Contient les classes de base pour les personnages, les joueurs, les lieux et les PNJ.
 - **metier** : Contient les classes de métier pour les joueurs (Guerrier, Magicien, etc.).
@@ -30,10 +30,9 @@ Avant de commencer, assurez-vous d'avoir installé ce qui suit sur votre machine
 2. Accédez au répertoire racine de votre projet en utilisant la commande :
    ```sh
    cd chemin/vers/le/repertoire/projet
-4. Compilez les fichiers source Java en utilisant la commande :
+3. Compilez les fichiers source Java en utilisant la commande :
    ```sh
    javac chemin/vers/les/fichiers/*.java
-
 Par exemple :
  `javac src/*.java`
 
