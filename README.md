@@ -43,11 +43,3 @@ Par exemple :
 
 Par exemple :
  `java -cp bin Jeu`
-
-## Auteur
-
-Ce projet a été créé par :
-
-- **Min0u**
-- **Obludaaa**
-- **captain-ramkumiko**
