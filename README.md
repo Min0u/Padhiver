@@ -33,4 +33,4 @@ Avant de commencer, assurez-vous d'avoir installé ce qui suit sur votre machine
 #### Exécution
 
 1. Restez dans le même répertoire où se trouvent vos fichiers compilés.
-2. Exécutez le fichier principal du programme : ``Jeu```.
+2. Exécutez le fichier principal du programme : ```Jeu```.
