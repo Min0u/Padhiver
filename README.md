@@ -1,36 +1,36 @@
 # Padhiver
 
-Ce projet de jeu de rôle a été développé en Java et consiste en un combat entre un joueur et des monstres. Les personnages peuvent attaquer en utilisant différents sorts et capacités.
+This role-playing game project was developed in Java and involves combat between a player and monsters. Characters can attack using various spells and abilities.
 
-## Structure du Projet
+## Project Structure
 
-Le projet est structuré en packages (sauf pour le fichier Jeu.java qui contient "main", qui est situé dans le répertoire principal)  :
+The project is structured into packages (except for the `Jeu.java` file which contains the `main` method and is located in the root directory):
 
-- **base** : Contient les classes de base pour les personnages, les joueurs, les lieux et les PNJ.
-- **metier** : Contient les classes de métier pour les joueurs (Guerrier, Magicien, etc.).
-- **monstre** : Contient les classes de monstres, y compris des monstres spécifiques comme les dragons et les nécromants.
-- **sort** : Contient les classes de sorts, tels que Boule de Feu, Rayon de Givre, Transfert de Vie, etc.
+- **base**: Contains base classes for characters, players, locations, and NPCs.
+- **metier**: Contains profession classes for players (Warrior, Mage, etc.).
+- **monstre**: Contains monster classes, including specific monsters like dragons and necromancers.
+- **sort**: Contains spell classes such as Fireball, Frost Ray, Life Transfer, etc.
 
-## Comment Jouer
+## How to Play
 
-1. Compilez les fichiers source Java.
-2. Exécutez le fichier principal `Jeu` pour lancer le jeu.
+1. Compile the Java source files.
+2. Execute the main file `Jeu` to start the game.
 
-### Prérequis
+### Prerequisites
 
-Avant de commencer, assurez-vous d'avoir installé ce qui suit sur votre machine :
+Before you begin, make sure you have the following installed on your machine:
 
-- **Java JDK** - [Télécharger Java JDK](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)
+- **Java JDK** - [Download Java JDK](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)
 
-### Compilation et Exécution du Projet
+### Compiling and Running the Project
 
 #### Compilation
 
-1. Ouvrez un terminal ou une invite de commande.
-2. Accédez au répertoire racine de votre projet.
-3. Compilez les fichiers source Java.
+1. Open a terminal or command prompt.
+2. Navigate to the root directory of your project.
+3. Compile the Java source files.
 
-#### Exécution
+#### Execution
 
-1. Restez dans le même répertoire où se trouvent vos fichiers compilés.
-2. Exécutez le fichier principal du programme : ```Jeu```.
+1. Stay in the same directory where your compiled files are located.
+2. Execute the main program file: `Jeu`.
